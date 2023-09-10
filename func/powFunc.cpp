@@ -7,7 +7,7 @@ double itc_pow(int num, int step)
     double temp = double(num);
     if(step>0)
     {
-        for (int i = 0; i<step; i++)
+        for (int i = 1; i<step; i++)
         {
             temp=temp*double(num);
         }
@@ -19,13 +19,14 @@ double itc_pow(int num, int step)
     }
     else
     {
-        for (int i = 0; i<step; i++)
+        for (int i = -1; i>step; i--)
         {
             temp=temp*double(num);
         }
         return 1/temp;
     }
 }
+
 
 bool itc_inpositive(int num)
 {
