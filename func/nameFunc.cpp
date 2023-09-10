@@ -9,5 +9,5 @@ void itc_name()
 
 void itc_fio()
 {
-    cout << "Smyslov" << itc_name() << "Gennadievich"
+    cout << "Smyslov Mikhail Gennadievich";
 }

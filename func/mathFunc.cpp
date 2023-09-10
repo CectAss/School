@@ -6,7 +6,7 @@ int itc_abs(int a)
 {
     if (a<0)
         {
-            a=a*-1
+            a=a*-1;
         }
     return a;
 }
@@ -15,7 +15,7 @@ double itc_fabs(int a)
 {
     if (a<0)
         {
-            a=a*-1
+            a=a*-1;
         }
     return a;
 }
@@ -33,3 +33,4 @@ bool itc_iseven(int a)
     }
     return false;
 }
+

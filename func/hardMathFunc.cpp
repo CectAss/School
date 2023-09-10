@@ -17,14 +17,14 @@ int itc_skv(int a)
 {
     if (a>=0)
     {
-        return a*b;
+        return a*a;
     }
     return -1;
 }
 
-int itc_str(int a, int b)
+int itc_spr(int a, int b)
 {
-    if(a>=0 and b>=0)
+    if(a>=0 && b>=0)
     {
         return a*b;
     }
@@ -33,10 +33,10 @@ int itc_str(int a, int b)
 
 int itc_str(int a, int b, int c)
 {
-    if(a>=0 and b>=0 and c>=0)
+    if(a>=0 && b>=0 && c>=0)
     {
-        d=(a+b+c)/2
-        return itc_sqrt(p*(p-a)(p-b)(p-c));
+        int d=(a+b+c)/2;
+        return itc_sqrt(d*(d-a)*(d-b)*(d-c));
     }
     return -1;
 }

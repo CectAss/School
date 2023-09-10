@@ -20,7 +20,7 @@ int itc_min(int a, int b)
     return b;
 }
 
-double itc_max(double a, double b)
+double itc_fmax(double a, double b)
 {
     if(a>b)
     {
@@ -29,7 +29,7 @@ double itc_max(double a, double b)
     return b;
 }
 
-double itc_min(double a, double b)
+double itc_fmin(double a, double b)
 {
     if(a<b)
     {

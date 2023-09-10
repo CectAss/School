@@ -2,14 +2,14 @@
 
 using namespace std;
 
-double inc_pow(int num, int step)
+double itc_pow(int num, int step)
 {
     double temp = double(num);
     if(step>0)
     {
         for (int i = 0; i<step; i++)
         {
-            temp=temp*double(nub);
+            temp=temp*double(num);
         }
         return temp;
     }
@@ -21,13 +21,13 @@ double inc_pow(int num, int step)
     {
         for (int i = 0; i<step; i++)
         {
-            temp=temp*double(nub);
+            temp=temp*double(num);
         }
         return 1/temp;
     }
 }
 
-bool inc_inpositive(int num)
+bool itc_inpositive(int num)
 {
     if(num>=0)
     {
@@ -36,7 +36,7 @@ bool inc_inpositive(int num)
     return false;
 }
 
-bool inc_inpositive_d(int num)
+bool itc_inpositive_d(int num)
 {
     if(num>=0)
     {
