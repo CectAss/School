@@ -21,8 +21,8 @@ double itc_fmin(double a, double b);
 void itc_name();
 void itc_fio();
 
-double inc_pow(int num, int step);
-bool inc_inpositive(int num);
-bool inc_inpositive_d(int num);
+double itc_pow(int num, int step);
+bool itc_inpositive(int num);
+bool itc_inpositive_d(int num);
 
 #endif // EASY_H_INCLUDED
