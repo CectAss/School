@@ -11,11 +11,11 @@ int itc_abs(int a)
     return a;
 }
 
-double itc_fabs(int a)
+double itc_fabs(double a)
 {
-    if (a<double(0))
+    if (a<0)
         {
-            a=a*double(-1);
+            a=a*-1;
         }
     return a;
 }
