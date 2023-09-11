@@ -13,9 +13,9 @@ int itc_abs(int a)
 
 double itc_fabs(int a)
 {
-    if (a<0)
+    if (a<double(0))
         {
-            a=a*-1;
+            a=a*(-1);
         }
     return a;
 }
