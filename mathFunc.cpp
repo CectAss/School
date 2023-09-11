@@ -22,7 +22,7 @@ double itc_fabs(double a)
 
 int itc_revnbr(int a)
 {
-    return (a-a/10)*100 + (a/10-a/100*10)*10 + (a/100);
+    return (a-a/10*10)*100 + (a/10-a/100*10)*10 + (a/100);
 }
 
 bool itc_iseven(int a)
