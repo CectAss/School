@@ -19,7 +19,7 @@ int itc_sqrt(int a)
 
 int itc_skv(int a)
 {
-    if (a>=0)
+    if (a>0)
     {
         return a*a;
     }
