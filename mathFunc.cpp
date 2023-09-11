@@ -15,7 +15,7 @@ double itc_fabs(int a)
 {
     if (a<double(0))
         {
-            a=a*(-1);
+            a=a*double(-1);
         }
     return a;
 }
