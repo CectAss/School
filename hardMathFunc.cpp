@@ -4,11 +4,16 @@ using namespace std;
 
 int itc_sqrt(int a)
 {
+    if (a<0)
+    {
+        return -1;
+    }
     if (a==0)
     {
         return 0;
     }
-    for (int i = 0; i<a; i++){
+    for (int i = 0; i<a; i++)
+    {
         if(a-i*i==0)
         {
             return i;
