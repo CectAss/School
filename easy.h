@@ -1,5 +1,6 @@
 #ifndef EASY_H_INCLUDED
 #define EASY_H_INCLUDED
+#include <iostream>
 
 int itc_sqrt(int a);
 int itc_skv(int a);
