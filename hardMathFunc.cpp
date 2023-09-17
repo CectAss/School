@@ -42,9 +42,9 @@ int itc_spr(int a, int b)
 
 int itc_str(int a, int b, int c)
 {
-    if(a>0 && b>0 && c>0)
+    if(a>0 && b>0 && c>0 && a+b>c && a+c>b && b+c>a)
     {
-        int d=(a+b+c)/2;
+        float d=(a+b+c)/2;
         return itc_sqrt(d*(d-a)*(d-b)*(d-c));
     }
     return -1;
@@ -52,9 +52,9 @@ int itc_str(int a, int b, int c)
 
 double itc_scir(int a)
 {
-    if(a>0)
+    if(a>=0)
     {
         return 3.14*double(a)*double(a);
     }
-    return -1;
+    return double(-1);
 }
