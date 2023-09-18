@@ -12,15 +12,18 @@ int itc_sqrt(int a)
     {
         return 0;
     }
-    for (int i = 0; i<a; i++)
+    int i = 0;
+    while(i*i<=a)
     {
-        if(a-i*i==0)
+        if(i*i==a)
         {
             return i;
         }
+        i++;
     }
     return -1;
 }
+
 
 int itc_skv(int a)
 {
