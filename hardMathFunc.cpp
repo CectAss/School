@@ -12,14 +12,12 @@ int itc_sqrt(int a)
     {
         return 0;
     }
-    int i = 0;
-    while(i*i<=a)
+    for (long long i = 0; i*i<=num; i++)
     {
-        if(i*i==a)
+        if(num-i*i==0)
         {
             return i;
         }
-        i++;
     }
     return -1;
 }
