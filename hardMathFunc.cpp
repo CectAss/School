@@ -12,9 +12,9 @@ int itc_sqrt(int a)
     {
         return 0;
     }
-    for (long long i = 0; i*i<=num; i++)
+    for (long long i = 0; i*i<=a; i++)
     {
-        if(num-i*i==0)
+        if(a-i*i==0)
         {
             return i;
         }
