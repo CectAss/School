@@ -45,7 +45,7 @@ int itc_str(int a, int b, int c)
 {
     if(a>0 && b>0 && c>0 && a+b>c && a+c>b && b+c>a)
     {
-        float d=(a+b+c)/2;
+        float d=(a+b+c)/2.0;
         return itc_sqrt(d*(d-a)*(d-b)*(d-c));
     }
     return -1;
